@@ -2,56 +2,75 @@ import uuidv1 from 'uuid/v1';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Cristian Spinelli | Full Stack Developer',
+  lang: 'en',
+  description: 'Welcome to my website',
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Cristian Spinelli,',
+  subtitle: 'The Unknown Developer',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: 'profile.jpeg',
+  paragraphOne:
+    "My name is Cristian Spinelli, graduated in 'Technological Management Processes' and inspiring and enthusiastic Certified Junior Full Stack Web Developer. I have experience on working with front-end using javascript ES6 and React, GraphQL, as well as back-end technologies such as Node and Express, SQL database management systems as PostgresQL.",
+  paragraphTwo:
+    'As a self-taught developer, knowing how to read Documentation and how to use debugging to solve code problems is an important part of the process! I love build apps from scratch using React and Node writting in javascript ES6, from development to production, connecting front-end to the back-end and the database. ',
+  paragraphThree:
+    'If your company has a need to use Junior developers to help Senior developers to delivery , I can be a good fit for you.',
+  resume: '',
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'demographr.png',
+    title: 'DemographR',
+    info:
+      'Using Clarifai API to identify demographics information from an image url, you can have information displayed as gender, age and multicultural appearances.  ',
+    info2:
+      'This is very much usefull for companies that wish to deliver a personalized experience for their customers.',
+    url: 'https://cvspinelli09.github.io/demographics/',
+    repo: 'https://github.com/cvspinelli09/demographics',
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'classic-car.png',
+    title: 'Classic-Car-Guide',
+    info:
+      'Web App I build and transform it to Progressive Web App. I used Google Firebase to work as database manager, so you can use your Google account to log in or create a new user, in either ways, data will get stored in Firebase',
+    info2: 'That was a great opportunity to practice React Router Dom, Switch and Route.',
+    url: 'https://cvspinelli09.github.io/classic-car/',
+    repo: 'https://github.com/cvspinelli09/classic-car',
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'ecom-clothing.png',
+    title: 'Ecom-Clothing',
+    info:
+      'Ecommerce built using React and React-Redux to manage state and props. Firebase to manage users data and login.',
+    info2:
+      'Used Redux Persist so the cart items do not refresh when user log out and log in again. Used Stripe API for test payments placed in backend for safety reasons and mock payments.',
+    url: 'https://crwn-09-live.herokuapp.com/',
+    repo: 'https://github.com/cvspinelli09/ecom-clothing',
+  },
+  {
+    id: uuidv1(),
+    img: 'robofriends.png',
+    title: 'Robofriends',
+    info:
+      'Progressive Web App built using fetch API to distribute random images to specific agents',
+    info2:
+      'Built in React, using Redux to manage states and props, and created sinergy between search field with displayed Cards by fetching API.',
+    url: 'https://cvspinelli09.github.io/robofriends2/',
+    repo: 'https://github.com/cvspinelli09/robofriends2/',
   },
 ];
 
@@ -59,7 +78,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'cvillaverde09@gmail.com',
 };
 
 // FOOTER DATA
@@ -67,28 +86,18 @@ export const footerData = {
   networks: [
     {
       id: uuidv1(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: uuidv1(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: uuidv1(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/cristian-spinelli-villaverde/',
     },
     {
       id: uuidv1(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/cvspinelli09',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
