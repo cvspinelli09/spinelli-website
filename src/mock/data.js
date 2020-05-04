@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpeg',
   paragraphOne:
-    'My name is Cristian Spinelli, graduated in Technological Management Processes, enthusiastic Certified Junior Full Stack Web Developer. I have experience working with front-end javascript ES6 React, GraphQL, back-end Node and Express, SQL database PostgresQL.',
+    'My name is Cristian Spinelli, graduated in Technological Management Processes, enthusiastic Certified Full Stack Web Developer. I have experience working with front-end javascript ES6 React, GraphQL, back-end Node and Express, SQL database PostgresQL.',
   paragraphTwo:
     'Self-taught developer, read Documentation and debugging to solve code problems is an important part of the process! I love to build apps from scratch with React, Node Express, from development to production, connecting front-end to the back-end and the database. ',
   paragraphThree:
