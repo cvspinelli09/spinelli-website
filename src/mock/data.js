@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Cristian Spinelli,',
-  subtitle: 'The Unknown Developer',
+  subtitle: 'The New Full Stack Developer',
   cta: '',
 };
 
@@ -19,11 +19,11 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpeg',
   paragraphOne:
-    "My name is Cristian Spinelli, graduated in 'Technological Management Processes' and inspiring and enthusiastic Certified Junior Full Stack Web Developer. I have experience on working with front-end using javascript ES6 and React, GraphQL, as well as back-end technologies such as Node and Express, SQL database management systems as PostgresQL.",
+    'My name is Cristian Spinelli, graduated in Technological Management Processes, enthusiastic Certified Junior Full Stack Web Developer. I have experience working with front-end javascript ES6 React, GraphQL, back-end Node and Express, SQL database PostgresQL.',
   paragraphTwo:
-    'As a self-taught developer, knowing how to read Documentation and how to use debugging to solve code problems is an important part of the process! I love build apps from scratch using React and Node writting in javascript ES6, from development to production, connecting front-end to the back-end and the database. ',
+    'Self-taught developer, read Documentation and debugging to solve code problems is an important part of the process! I love to build apps from scratch with React, Node Express, from development to production, connecting front-end to the back-end and the database. ',
   paragraphThree:
-    'If your company has a need to use Junior developers to help Senior developers to delivery , I can be a good fit for you.',
+    'If your company has a need to use Junior developers to help Senior developers, I can be a good fit.',
   resume: '',
 };
 
