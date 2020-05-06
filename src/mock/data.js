@@ -72,6 +72,16 @@ export const projectsData = [
     url: 'https://cvspinelli09.github.io/robofriends2/',
     repo: 'https://github.com/cvspinelli09/robofriends2/',
   },
+  {
+    id: uuidv1(),
+    img: 'buy-tickets.png',
+    title: 'Buy-Tickets CSS Section',
+    info:
+      'Built in React only to display styling features for this LNER Railway Co., tickets purchase piece of section. Used SASS and construction techniques where I find more appropriate',
+    info2: 'There is no interaction here, only styling techniques',
+    url: 'https://cvspinelli09.github.io/buy-tickets/',
+    repo: 'https://github.com/cvspinelli09/buy-tickets/',
+  },
 ];
 
 // CONTACT DATA
