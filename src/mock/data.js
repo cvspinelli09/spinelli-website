@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Cristian Spinelli,',
-  subtitle: 'The New Full Stack Developer',
+  subtitle: 'The Web Developer',
   cta: '',
 };
 
@@ -19,11 +19,11 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpeg',
   paragraphOne:
-    'My name is Cristian Spinelli, graduated in Technological Management Processes, enthusiastic Certified Full Stack Web Developer. I have experience working with front-end javascript ES6 React, GraphQL, back-end Node and Express, SQL database PostgresQL.',
+    'My name is Cristian Spinelli, graduated as Technologist in Management Process, an enthusiastic individual and Certified Web Developer. Experienced working with front-end javascript ES6 React, GraphQL, back-end Node and Express, SQL database PostgresQL.',
   paragraphTwo:
-    'Self-taught developer, read Documentation and debugging to solve code problems is an important part of the process! I love to build apps from scratch with React, Node Express, from development to production, connecting front-end to the back-end and the database. ',
+    'Self-taught developer, read Documentation and debugging to solve code problems was an important part of the process! I love to build apps from scratch with React, Node Express, from development to production, connecting front-end to the back-end and the database. ',
   paragraphThree:
-    'If your company has a need to use Junior developers to help Senior developers, I can be a good fit.',
+    'If your company has a need to use Junior developer to help Senior developers, I can be a good fit.',
   resume: '',
 };
 
@@ -63,24 +63,13 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: 'robofriends.png',
-    title: 'Robofriends',
-    info:
-      'Progressive Web App built using fetch API to distribute random images to specific agents',
-    info2:
-      'Built in React, using Redux to manage states and props, and created sinergy between search field with displayed Cards by fetching API.',
-    url: 'https://cvspinelli09.github.io/robofriends2/',
-    repo: 'https://github.com/cvspinelli09/robofriends2/',
-  },
-  {
-    id: uuidv1(),
     img: 'buy-tickets.png',
     title: 'Buy-Tickets CSS Section',
     info:
       'Built in React only to display styling features for this LNER Railway Co., tickets purchase piece of section. Used SASS and construction techniques where I find more appropriate',
-    info2: 'There is no interaction here, only styling techniques',
-    url: 'https://cvspinelli09.github.io/buy-tickets/',
-    repo: 'https://github.com/cvspinelli09/buy-tickets/',
+    info2: 'There is no interaction here, only practice of styling techniques',
+    url: 'https://cvspinelli09.github.io/buy-tickets-component/',
+    repo: 'https://github.com/cvspinelli09/buy-tickets-component/',
   },
 ];
 
