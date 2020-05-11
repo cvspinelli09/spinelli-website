@@ -31,6 +31,17 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
+    img: 'weather.png',
+    title: 'Weather App',
+    info:
+      'This is a new weather app I built. Had build another one recently, and with this one was an improvement, on the coding by myself and on the styling. Used WeatherAPI.com API to have access to all information I needed. Among millions of choices to have the design influenced, I did based on Google.',
+    info2:
+      'You can change location by click the + LOCATION button and typing another city, anywhere in the world.',
+    url: 'https://cvspinelli09.github.io/spinelli-my-weather/',
+    repo: 'https://github.com/cvspinelli09/spinelli-my-weather',
+  },
+  {
+    id: uuidv1(),
     img: 'demographr.png',
     title: 'DemographR',
     info:
